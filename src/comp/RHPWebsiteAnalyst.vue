@@ -7,13 +7,15 @@
           <div class="row shadow-lg m-2 bg-white">
             <div class="jumbotron rounded-0 bg-white">
             <h3 class="text-dark pb-2">Rent Home Pro Website</h3>
-            <p class="lead text-dark" >Rent Own Pro was A project I worked on at the very end of my undergrad In Web and Ux.
+            <p class="lead text-dark" >Rent Own Pro was A project I worked on at the very end of my undergrad In Web and UX.
                 The purpose was to redesign this website. This website is mobile friendly and Is colored
                 bright and open to attract customers. The of this website colors are simple and based off of the original 
                 logos given to designers to use in this project.  There was really only one good one for use 
                 that matched the description of the lovely homes sold by Rent Own Home Pro. So, I chose 
                 their suggested logos and went to work.
             </p>
+            <img class=" p-0 img-fluid" src="./imgs/projectImg/rentforhome-site-info3.png" alt="rhp-main">
+
         </div>
           </div>
           </div>
@@ -93,33 +95,9 @@
           </div>
           </div>
     </section>
-    <footer class="bg-black">
-      <div class="col-12">
-      <div class="row justify-content-around">
-        <div class="col-md-6 text-center">
-          <h5 class="text-white">Quick Links</h5>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Review</router-link>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Page</router-link>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Home Page</router-link>
+    <div class="text-right p-5 footer-bg"><router-link to="/projects" tag="a" class="btn btn-primary btn-sm px-2 py-1 m-0 disy" active-class="active"><bold>To Projects Page</bold></router-link>
+</div>
 
-          <p class="text-primary p-0 m-0">Response Time: ~ 2hrs</p>
-          <p class="text-primary p-0 m-0 ml-2 mb-4">&copy; 2020 Jason Ure</p>
-        </div>
-        <div class="col-md-6 text-center mb-4">
-          <h5 class="text-white">Contact Info</h5>
-          <p>Address: Utah / Remote</p>
-          <p>Get in touch!<br> Wide Rage of meeting<br> options.</p>
-          <div class="row justify-content-center">
-          <p class="lead text-dark p-1 mb-0 pb-0" ><a href="https://www.instagram.com/mista.mtndew/" class="dddd"><img class="up" src="./imgs/icon/i.svg" width="35px" height="30px"></a></p>
-            <p class="lead text-dark p-1 mb-0 pb-0" ><a v-bind:href="'mailto:jason.ure@gmail.com?subject=Request'" class="dddd"><img class="up" src="./imgs/icon/gm.svg" width="35px" height="35px"></a></p>
-            <p class="lead text-dark p-1 mb-0 pb-0" ><a href="https://www.facebook.com/JasonUreWeb" class="dddd"><img class="up" src="./imgs/icon/f.svg" width="35px" height="30px"></a></p>
-            <p class="lead text-dark p-1 mb-0 pb-0" ><a href="https://www.linkedin.com/in/jason-ure-a04309101" class="dddd"><img class="up" src="./imgs/icon/l.svg" width="35px" height="35px"></a></p>
-          </div>
-        </div>
-      </div>
-      </div>
-    </footer>
-    
 </main>
 </template>
 <script>

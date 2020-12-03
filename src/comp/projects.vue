@@ -2,12 +2,12 @@
 <main>
     <!-- intro -->
 <section class="footer-bg">
-                <div class="text-right p-5 footer-bg shadow-sm"><button class="btn btn-primary btn-sm px-2 py-1 m-0 dis" id="#"><bold>Projects Page</bold></button></div>
+                <div class="text-right p-5 footer-bg shadow-sm" id="projects"><button class="btn btn-primary btn-sm px-2 py-1 m-0 dis" id="#"><bold>Projects Page</bold></button></div>
                 <div class="card bg-dark text-white rounded-0">
                 <img class="card-img rounded-0 d-lg-flex d-none" src="./imgs/port.jpg" alt="lg port img">
                 <img class="card-img rounded-0 d-lg-none" src="./imgs/projectHero-sm.png" alt="sm port img">
                 </div>
-                <div class="card-footer footer-bg d"> 
+                <div class="card-footer footer-bg py-4 d"> 
                     <h3 class="card-title text-dark">Past Projects</h3>
                     <p class="card-text text-dark lead">School Websites and Digital Media Projects.</p>
                     <p class="card-text text-dark">Projects in 2020 and Prior</p>
@@ -16,9 +16,9 @@
 </section>
 
 <section>
-    <div class="col-12">
+    <div class="col-12 mx-auto">
         <div class="row justify-content-around fill-flex">
-            <div class="col-md-4">
+            <div class="col-md-4 my-2">
                 <div class="card footer-bg rounded-0">
                     <div class="card-header text-center">
                         RHP Website <br> Real Estate
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-2">
                 <div class="card footer-bg rounded-0">
                     <div class="card-header text-center">
                         EverCharter Website <br> Charter School
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 my-2">
                 <div class="card footer-bg rounded-0">
                     <div class="card-header text-center">
                         Kweso Website <br> Marketing
@@ -57,7 +57,7 @@
                         <img class="card-img rounded-0" src="./imgs/projectImg/kwesto-thumb-8.png" alt="kweso">
                     </div>
                     <div class="card-footer text-center">
-                        <button class="btn btn-primary text-center" data-toggle="modal" data-target="#rhp">
+                        <button class="btn btn-primary text-center" data-toggle="modal" data-target="#kweso">
                             View Project 
                         </button>
                     </div>
@@ -89,7 +89,6 @@
                         <p class="text-muted">Project Type: School Project</p>
                         <p class="text-muted">Project Client: 99Design</p>
                         <p class="text-muted">Sources Used: Client content and 3rd Party</p>
-                        <p class="text-muted">Sources Used: Client and 3rd Party</p>
                         <p class="text-muted">Source Editors: Adobe, Microsoft, and Visual Studio</p>
                         <p class="text-muted">Languages: HTML5 / Sass / Bootstrap / JS </p>
                         <p class="text-muted">Time: ~20 hours</p>
@@ -121,7 +120,6 @@
                         <p class="text-muted">Project Type: School Project</p>
                         <p class="text-muted">Project Client: School Project Idea</p>
                         <p class="text-muted">Sources Used: 3rd Party</p>
-                        <p class="text-muted">Sources Used: 3rd Party</p>
                         <p class="text-muted">Source Editors: Adobe, Microsoft, and Visual Studio</p>
                         <p class="text-muted">Languages: HTML5 / Bootstrap / Sass / JS</p>
                         <p class="text-muted">Time: ~25 hours</p>
@@ -140,7 +138,7 @@
     </div>
 
 
-        <div class="modal fade" id="dance" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="kweso" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
         <div class="modal-body">
@@ -154,11 +152,10 @@
                     </div>
                     <div class="card-body">
                         <p class="text-muted">Project Type: Other School Project</p>
-                        <p class="text-muted">Project Client: Self</p>
-                        <p class="text-muted">Sources Used: 3rd Party</p>
-                        <p class="text-muted">Sources Used: 3rd Party</p>
+                        <p class="text-muted">Project Client: 99Design</p>
+                        <p class="text-muted">Sources Used: 3rd Party and Self</p>
                         <p class="text-muted">Source Editors: Adobe, Microsoft, and Visual Studio</p>
-                        <p class="text-muted">Languages: HTML5 / Bootstrap / JS</p>
+                        <p class="text-muted">Languages: HTML5 / CSS / SASS / Bootstrap / JS</p>
                         <p class="text-muted">Time: ~35 hours</p>
                     </div>
                         
@@ -175,7 +172,7 @@
 
     <!-- End Mod -->
     <section>
-        <div class="col-12">
+        <div class="col-12  mx-auto">
             <div class="card-columns">
               
                 <div class="card mt-md-3 order-1">
@@ -273,10 +270,9 @@
       <div class="row justify-content-around">
         <div class="col-md-6 text-center">
           <h5 class="text-white">Quick Links</h5>
+          <a type="button" class="btn btn-primary btn-sm my-2 py-1" href="http://itsure.io/archive/ure_Jason-web-ux-resume-20.pdf" download="ure_Jason-web/ux-resume.pdf">View Resume</a>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Review</router-link>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Page</router-link>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Home Page</router-link>
-
           <p class="text-primary p-0 m-0">Response Time: ~ 2hrs</p>
           <p class="text-primary p-0 m-0 ml-2 mb-4">&copy; 2020 Jason Ure</p>
         </div>

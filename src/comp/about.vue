@@ -2,7 +2,7 @@
     <main>
     <!-- intro  fix with bootstrap card class-->
       <section class="pb-2 pb-lg-5">
-          <div class="text-right p-5 footer-bg"><button class="btn btn-primary btn-sm px-2 py-1 m-0 dis" id="#" ><bold>About Page</bold></button></div>
+          <div class="text-right p-5 footer-bg"><button class="btn btn-primary btn-sm px-2 py-1 m-0 dis" ><bold>About Page</bold></button></div>
           <div class="col-12 bg-white pb-3">
           <div class="row">
             <div class="col-lg-4">        
@@ -36,18 +36,19 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="pb-4"><h4 class="text-center">Would you like to learn more about my projects?<br><hr><router-link to="/projects" class=" m-0" active-class="active"><a class="btn btn-primary btn-lg" href="#" role="button">Projects</a></router-link></h4>
+    <section class="pb-4 pt-4"><h4 class="text-center">Would you like to learn more about my projects?<br><hr><router-link to="/projects" class=" m-0" active-class="active"><a class="btn btn-primary btn-lg" href="#" role="button">Projects</a></router-link></h4>
 
     </section>
     <!--  -->
     <section class="p-3">
-      <h3>Take Away...</h3>
-      <p>My main focus and goal is to become an Program Manager and/or Educator</p>
+      
     
     <!-- key points about me -->
-  
+      <div class="col-md-12 col-10 justify-content-between mx-auto mt-3">  
+        <h3>Take Away...</h3>
+      <p>My main focus and goal is to become an Program Manager and/or Educator</p>
       <div class="card-deck row">
-      <div class="card col-lg-4 h-100">
+      <div class="card col-md-4 h-100">
         <div class="card-body ">
           <h5 class="card-title pb-0 mb-0">Digital Media Experiance</h5>
         </div>
@@ -55,7 +56,7 @@
 
         <p class="card-text text-dark lead text-center p-2">Years of Experience</p>
       </div>
-      <div class="card col-lg-4 h-100">
+      <div class="card col-md-4 h-100">
         <div class="card-body">
           <h5 class="card-title pb-0 mb-0">Web and User Experience</h5>
         </div>
@@ -63,7 +64,7 @@
         <p class="card-text text-dark lead text-center p-2">Years of Experience</p>
 
       </div>
-      <div class="card col-lg-4 h-100">
+      <div class="card col-md-4 h-100">
         <div class="card-body">
           <h5 class="card-title pb-0 mb-0">Leadership and Training</h5>
         </div>
@@ -73,24 +74,40 @@
 
       </div>
       </div>
+      </div>
     </section>
 <section class="footer-bg">
   <div class="jumbotron footer-bg">
   <h3 class="text-primary">Ready to take a peak at my resume?</h3>
   <hr class="my-4">
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Download</a>
+    <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#resume"  role="button">View</a>
   </p>
 </div>
 </section>
+<!-- resume modal -->
+<div class="modal fade" id="resume" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-body">
+            <img class="card-img rounded-0" src="./ure_Jason-web-ux-resume-20.png">
+        </div>
+        <div class="modal-footer">
+            <a type="button" class="btn btn-primary" href="http://itsure.io/archive/ure_Jason-web-ux-resume-20.pdf" download="ure_Jason-web/ux-resume.pdf">Download</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+    </div>
+
     <footer class="bg-black">
       <div class="col-12">
       <div class="row justify-content-around">
         <div class="col-md-6 text-center">
           <h5 class="text-white">Quick Links</h5>
+          <a type="button" class="btn btn-primary btn-sm my-2 py-1" href="http://itsure.io/archive/ure_Jason-web-ux-resume-20.pdf" download="ure_Jason-web/ux-resume.pdf">View Resume</a>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Review</router-link>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Page</router-link>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Home Page</router-link>
 
           <p class="text-primary p-0 m-0">Response Time: ~ 2hrs</p>
           <p class="text-primary p-0 m-0 ml-2 mb-4">&copy; 2020 Jason Ure</p>

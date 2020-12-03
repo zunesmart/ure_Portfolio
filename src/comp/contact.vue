@@ -64,10 +64,9 @@
       <div class="row justify-content-around">
         <div class="col-md-6 text-center">
           <h5 class="text-white">Quick Links</h5>
+          <a type="button" class="btn btn-primary btn-sm my-2 py-1" href="http://itsure.io/archive/ure_Jason-web-ux-resume-20.pdf" download="ure_Jason-web/ux-resume.pdf">View Resume</a>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Review</router-link>
           <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Project Page</router-link>
-          <router-link to="/rhp-review" tag="p" class="text-white hov pointer-link">Home Page</router-link>
-
           <p class="text-primary p-0 m-0">Response Time: ~ 2hrs</p>
           <p class="text-primary p-0 m-0 ml-2 mb-4">&copy; 2020 Jason Ure</p>
         </div>
