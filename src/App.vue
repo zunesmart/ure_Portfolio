@@ -16,9 +16,13 @@
 
       <nav-app></nav-app>
       </aside>
+     
      <article v-bind:class="[navToggle ? query2 : '']" class="col-md-9 bg-secondary p-0 m-0">
-      <router-view></router-view>
+        <transition name="fade">
+      <router-view v-if="show"></router-view>
+      </transition>
      </article>
+      
       </body>
     </html>
 </template>
@@ -31,7 +35,8 @@ export default {
     return {
       navToggle: false,
       query1: 'col-5',
-      query2: 'col-7'
+      query2: 'col-7',
+      show: true
     }
   },
   components: {

@@ -33,8 +33,14 @@ $styleOne: ("2": 5.5rem, "3": 3rem, "4": 2rem);
 
     }
 }
+.fade-enter-active, .fade-leave-active {
+  transition: ease-in-out 185ms;
 
-
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: .85;
+  
+}
 
 
 .hov:hover {

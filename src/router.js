@@ -19,5 +19,5 @@ export const routes = [
     { path: '/project', redirect: '/projects' },
     { path: '/projects', redirect: '/projects' },
     { path: '/about', redirect: '/about' },
-    { path: '*', redirect: '/' }// * go to any path user goes to can go to a 404
+
 ]
