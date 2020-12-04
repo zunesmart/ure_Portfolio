@@ -7,12 +7,12 @@
           <div class="row shadow-lg m-2 bg-white">
             <div class="jumbotron rounded-0 bg-white">
             <h3 class="text-dark pb-2">Rent Home Pro Website</h3>
-            <p class="lead text-dark" >Rent Own Pro was A project I worked on at the very end of my undergrad In Web and UX.
-                The purpose was to redesign this website. This website is mobile friendly and Is colored
-                bright and open to attract customers. The of this website colors are simple and based off of the original 
-                logos given to designers to use in this project.  There was really only one good one for use 
-                that matched the description of the lovely homes sold by Rent Own Home Pro. So, I chose 
-                their suggested logos and went to work.
+            <p class="lead text-dark" >Rent Own Pro was a web project I worked on at the very end
+                 of my undergrad of wording towards Web and UX degree. The purpose was to redesign this website.
+                  This website is mobile friendly and Is colored bright and open to attract customers. The colors 
+                  are simple and based off of the original logos given to designers to use in this project. There
+                   was really only one good one for use that matched the description of the lovely homes sold by
+                    Rent Own Home Pro. So, I chose their suggested logos and went to work.
             </p>
             <img class=" p-0 img-fluid" src="./imgs/projectImg/rentforhome-site-info3.png" alt="rhp-main">
 
@@ -26,11 +26,10 @@
             <div class="jumbotron col-lg-6 bg-white m-0 "><img class=" p-0 img-fluid" src="./imgs/projectImg/csRHP/nav.jpg" alt="Knowledge"></div>
             <div class="col-lg-6 jumbotron rounded-0 bg-white">
             <h5 class="text-dark pb-2">Knowledge Needed to Code this Website</h5>
-            <p class="lead text-dark" >The knowledge to complete this project took knowledge of 
-                advanced grid and flex skills using Bootstrap customs 
-                with Sass. The DOM was coded in HTML5. I did this
-                project more efficient using Visual Studio Code with 
-                sass loader and live server. 
+            <p class="lead text-dark" >The knowledge to complete this project took knowledge of
+                 advanced grid and flex skills with using Bootstrap customs with Sass. The DOM was 
+                 coded in HTML5. I did this project more efficient using Visual Studio Code with sass
+                  loader and live server.
             </p>
             <p>Listed below are some custom components used in this
                 project</p>
@@ -39,7 +38,7 @@
     </div>
     </section>
 
-    <section>
+    <section> 
     <div class="col-12">
     <div class="row shadow-lg mt-2 mx-2  mb-1  jumbotron bg-white">
             <div class="col-md-6 mb-4">

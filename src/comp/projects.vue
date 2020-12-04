@@ -187,7 +187,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Business Card</h5>
                         <p class="card-text text-dark">This business card features Custom Typography and Graphic Design that were created
-                            in Adobe Illustrator for intentions of a fashon website.
+                            in Adobe Illustrator for intentions of a fashion website.
                         </p>
                         
                     </div>
@@ -210,7 +210,7 @@
                 <div class="card mt-md-5">
                     <img src="./imgs/media/Kweso.svg" class="card-img-top" alt="kweso">
                     <div class="card-body">
-                        <h5 class="card-title">Kweso Custom Icon</h5>
+                        <h5 class="card-title">KWESO Custom Icon</h5>
                         <p class="card-text text-dark">This Icon I made from one of my most recent web projects which was creating a front end universal website for farmers and buyers.</p>
                     </div>
                 </div>

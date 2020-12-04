@@ -23,7 +23,7 @@
               <li class="text-dark"><h4 class="text-dark">Digital Media / Graphic Design - 9 years.</h4></li>
               <ul class="sss">
                   <li class="text-dark">Programs Include: Adobe Photoshop / Adobe Illustrator / and Adobe Premier Pro</li>
-                  <li class="text-dark">Other Programs: / All Microsoft Office Suites. /</li>
+                  <li class="text-dark">Other Programs: / All Microsoft Office Suites. </li>
               </ul>
           </ul>
           

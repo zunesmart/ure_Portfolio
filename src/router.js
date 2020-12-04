@@ -6,11 +6,18 @@ import rhp from './comp/RHPWebsiteAnalyst.vue'
 
 
 export const routes = [
-    {path: '/', component: Home},  
+    {path: '/', component: Home},
     {path: '/about', component: About},
     {path: '/projects', component: Projects},
     {path: '/contact', component: Contact},
     {path: '/rhp-review', component: rhp},
 
+    { path: '/', redirect: '/' },
+    { path: '/home', redirect: '/' },
+    { path: '/rhp-review', redirect: '/rhp-review' },
+    { path: '/contact', redirect: '/contact' },
+    { path: '/project', redirect: '/projects' },
+    { path: '/projects', redirect: '/projects' },
+    { path: '/about', redirect: '/about' },
     { path: '*', redirect: '/' }// * go to any path user goes to can go to a 404
-] 
+]
