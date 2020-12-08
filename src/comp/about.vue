@@ -11,21 +11,6 @@
                 video is not showing
               </video></div>
           <div class="col-lg-8 shadow-lg">
-            <div class="rain-1">a</div>
-            <div class="rain-2">a</div>
-            <div class="rain-3">a</div>
-            <div class="rain-4">a</div>
-            <div class="rain-5">a</div>
-            <div class="rain-11">b</div>
-            <div class="rain-12">b</div>
-            <div class="rain-13">b</div>
-            <div class="rain-14">b</div>
-            <div class="rain-15">b</div>
-            <div class="rain-21">c</div>
-            <div class="rain-22">c</div>
-            <div class="rain-23">c</div>
-            <div class="rain-24">c</div>
-            <div class="rain-25">c</div>
           <div class="bg-white p-4 mt-4">
           <h3 class="text-dark textframe1">Run Down - About Skills</h3>
           <ul class="text-white sss">
