@@ -1,5 +1,7 @@
 # jasonure
 
+netlif fixed  ----------------------------> https://quirky-noether-9545a9.netlify.app/#/
+
 ## Project setup
 ```
 npm install
